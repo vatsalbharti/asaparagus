@@ -3,7 +3,7 @@
 name: Fetch Data
 on:
   schedule:
-    - cron:  '6 * * * *'
+    - cron:  '*/5 * * * *'
 jobs:
   fetchstatedata:
     runs-on: ubuntu-latest
